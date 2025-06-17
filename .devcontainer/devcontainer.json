@@ -1,0 +1,13 @@
+{
+  "name": "Python HTTP Test",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+  "features": {},
+  "postCreateCommand": "pip install aioquic==0.9.25 cryptography pyOpenSSL flask requests pandas",
+  "forwardPorts": [5000, 4433],
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
